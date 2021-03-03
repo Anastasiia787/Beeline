@@ -16,7 +16,7 @@ public class MobileTariff {
                 "\n" + freeMinutes + " МИН" +
                 "\n" + freeMessages + " SMS" +
                 "\n" + oldPrice + " РУБ/МЕС" +
-                "\n" + "-" + discount + "% на год" +
+                " -" + discount + "% на год" +
                 "\n" + price + " РУБ/МЕС" +
                 "\n";
     }
