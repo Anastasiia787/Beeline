@@ -8,7 +8,7 @@ public class Main {
         closePeopleOne.freeMessages = 300;
         closePeopleOne.price = 350;
         System.out.println(closePeopleOne);
-
+        System.out.println();
 
         MobileTariff closePeopleTwo = new MobileTariff();
         closePeopleTwo.name = "Близкие люди 2";

@@ -15,9 +15,7 @@ public class MobileTariff {
                 "\n" + internetTraffic + " ГБ" +
                 "\n" + freeMinutes + " МИН" +
                 "\n" + freeMessages + " SMS" +
-                "\n" + oldPrice + " РУБ/МЕС" +
-                " -" + discount + "% на год" +
-                "\n" + price + " РУБ/МЕС" +
-                "\n";
+                "\n" + oldPrice + " РУБ/МЕС" + " -" + discount + "% на год" +
+                "\n" + price + " РУБ/МЕС";
     }
 }
