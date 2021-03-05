@@ -1,4 +1,5 @@
 public class MobileTariff {
+    long id;
     String name;
     String digitalSimCard;
     int internetTraffic;
@@ -7,15 +8,18 @@ public class MobileTariff {
     int oldPrice;
     int discount;
     int price;
+    String information;
 
     @Override
     public String toString() {
-        return name  +
+        return id +
+                "\n" + name  +
                 "\n" + digitalSimCard +
                 "\n" + internetTraffic + " ГБ" +
                 "\n" + freeMinutes + " МИН" +
                 "\n" + freeMessages + " SMS" +
                 "\n" + oldPrice + " РУБ/МЕС" + " -" + discount + "% на год" +
-                "\n" + price + " РУБ/МЕС";
+                "\n" + price + " РУБ/МЕС" +
+                "\n" + information;
     }
 }
